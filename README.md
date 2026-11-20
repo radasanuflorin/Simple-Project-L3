@@ -1,30 +1,45 @@
-# Simple Webpage
+Galerie Foto – HTML5 & CSS Grid
+Descrierea proiectului
 
-A clean and modern HTML/CSS webpage with a responsive design.
+Acest proiect demonstrează crearea unei secțiuni de galerie foto folosind HTML5 și CSS modern. Galeria este adăugată după secțiunea #despre din interiorul elementului <main>.
 
-## Features
+Structura HTML
 
-- Responsive navigation header
-- Three main sections (Home, About, Contact)
-- Fixed footer
-- Modern styling with hover effects
-- Clean typography and layout
+Secțiunea #galerie conține:
 
-## Files
+Un titlu de nivel 2 (<h2>).
+O grilă cu 3 imagini placeholder (<img>).
+Stilizare CSS
 
-- `index.html` - Main HTML structure
-- `styles.css` - Stylesheet with all the styling
+Pentru aranjarea imaginilor este utilizat CSS Grid, cu următoarele caracteristici:
 
-## How to Use
+Layout cu 3 coloane pe ecrane mari.
+Spațiere de 1rem între imagini.
+Fără utilizarea proprietății float.
+Design responsive pentru dispozitive mobile.
+Responsive Design
 
-1. Open `index.html` in your web browser
-2. Navigate between sections using the header links
+Pentru ecrane cu lățimea mai mică de 600px, galeria se transformă într-o singură coloană folosind un media query:
 
-## Technologies
+css
+@media (max-width: 600px) {
+    #galerie .grid {
+        grid-template-columns: 1fr;
+    }
+}
 
-- HTML5
-- CSS3
+Tehnologii utilizate
+HTML5
+CSS3
+CSS Grid
+Media Queries
+Instalare și utilizare
+Clonează sau descarcă proiectul.
+Deschide fișierul index.html într-un editor de cod.
+Deschide fișierul în browser pentru a vizualiza galeria.
+Obiectiv
 
----
+Crearea unei galerii foto simple, moderne și responsive, utilizând tehnici actuale de dezvoltare front-end.
 
-© 2025 My Simple Webpage
+Autor: Proiect demonstrativ
+Branch: feature/assistive-intelligence
