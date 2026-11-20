@@ -1,18 +1,3 @@
-<div align="center">
-
-# 🌐 radasanuf.com — Pagina personală
-
-**O pagină „despre mine” modernă, construită doar cu HTML5 și CSS3, centrată pe un singur lucru: un buton mare către [radasanuf.com](https://radasanuf.com).**
-
-[![Viziteaza site-ul](https://img.shields.io/badge/Viziteaza-radasanuf.com-7c5cff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://radasanuf.com)
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Responsive](https://img.shields.io/badge/Responsive-✓-00d4ff?style=flat-square)
-
-</div>
-
----
 
 ## ✨ Despre proiect
 
