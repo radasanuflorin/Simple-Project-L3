@@ -7,8 +7,8 @@ Structura HTML
 
 Secțiunea #galerie conține:
 
-Un titlu de nivel 2 (<h2>).
-O grilă cu 3 imagini placeholder (<img>).
+Un titlu de nivel 2 .
+O grilă cu 3 imagini placeholder .
 Stilizare CSS
 
 Pentru aranjarea imaginilor este utilizat CSS Grid, cu următoarele caracteristici:
